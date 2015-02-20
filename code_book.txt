@@ -1,0 +1,45 @@
+
+Description of the variables used in the code
+
+subject_test : output from ("UCI HAR Dataset/test/subject_test.txt")
+
+X_test : output from("UCI HAR Dataset/test/X_test.txt")
+
+y_test : output from("UCI HAR Dataset/test/y_test.txt")
+
+subject_train : output from("UCI HAR Dataset/train/subject_train.txt")
+
+X_train  : output from("UCI HAR Dataset/train/X_train.txt")
+
+y_train : output from ( "UCI HAR Dataset/train/y_train.txt")
+
+features : output from ("UCI HAR Dataset/features.txt")
+ 
+
+
+X: the merged values from ( X_train, X_test), which corresponds to the total variables calculated from the sensor information.
+y: the merged values from ( y_train, y_test) this is the activity information
+subject: the merged values from (subject_train, subject_test) this is the subject information  
+
+X1:  the X variable converted to numeric so that mean can be calculated 
+
+data : creating a dataframe which has the subject and activity and the variable coloumns
+cran: tbl_df(data)
+ 
+ 
+ cran2: the data set with only the required values as asked in the assignement.
+ 
+
+features : the variable containing the features file information i.e the name of all the coloumns of the variables.
+ 
+features1: taking the subset of the feature file which gives the names of the coloumns
+features123: the features1 variable along with the subject and the activity coloumns.
+ 
+cran3: is the data in the cran2 variable with the required coloumn name.
+ 
+ 
+cran4: the grouped data file required in the assignement.
+
+output.txt is the tidy data set output file
+ 
+ 
